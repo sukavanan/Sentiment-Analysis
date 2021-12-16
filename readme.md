@@ -1,0 +1,7 @@
+# Sentiment Analysis on Amazon Reviews Dataset
+
+A tutorial on performing sentiment analysis on textual data considering the Amazon Kitchen products reviews as an example. The gensim word2vec model is used to train our own word2vec model on the dataset to extract the vector representations of the words. The pre-trained google word2vec model is used as a comparison model. A wide range of predictive models starting from simple models such as perceptron to complex models such as GRU have been used for the purpose of sentiment analysis. Also, each model is trained on two scenarios, binary sentiment analysis and ternary sentiment analysis. The comparison between the google word2vec model and our own word2vec model is drawn at all points to highlight the differences in their performances. A brief explanation of the results are also mentioned in the Jupyter Notebook. 
+
+Running the whole notebook at once requires a huge amount of RAM or Virtual Memory, so it is better to run the notebook until certain checkpoints (which are explicitly mentioned) and then restart the kernel and run from those checkpoints to save up memory space. Otherwise, you could increase your virtual memory manually.
+
+The dataset could be downloaded here - https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Kitchen_v1_00.tsv.gz
